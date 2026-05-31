@@ -47,7 +47,7 @@ interface Station {
   id: string                            // Unique id
   name: string                          // Default display name
   homepage: string                      // Homepage URL
-  i18nNames?: Record<string, string>    // Localized names, e.g. { 'zh-CN': '云雾' }
+  i18nNames?: Record<string, string>    // Localized names, e.g. { 'zh-CN': '克劳德' }
   system?: 'one-api' | 'new-api' | 'sub2api' | 'custom'
   openedAt?: string                     // Opening date, ISO format 'YYYY-MM-DD'
   updatedAt?: string                    // Last time the data was updated, ISO format 'YYYY-MM-DD'
