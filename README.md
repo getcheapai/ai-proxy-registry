@@ -16,8 +16,8 @@ npm i ai-proxy-registry
 import { stations, type Station, type StationId } from 'ai-proxy-registry'
 
 // Type-safe id: a typo is caught at compile time
-const targetId: StationId = 'yunwu' // ✅
-// const wrong: StationId = 'yunw'  // ❌ TS error
+const targetId: StationId = 'claude' // ✅
+// const wrong: StationId = 'clau'  // ❌ TS error
 
 const station = stations.find((s) => s.id === targetId)
 const cnName = station?.i18nNames?.['zh-CN'] ?? station?.name
