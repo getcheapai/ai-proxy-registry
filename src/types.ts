@@ -18,11 +18,11 @@ export interface Station {
   /** Whether payment via corporate bank transfer is supported */
   supportsCorporateTransfer?: boolean
   /** Status page URL */
-  statusUrl?: string
+  statusUrl: string | false
   /** Privacy policy URL */
-  privacyUrl?: string
-  /** Refund policy (free-text description) */
-  refundPolicy?: string
+  privacyUrl: string | false
+  /** Refund policy URL */
+  refundUrl: string | false
   /** Last time the data was updated, ISO format 'YYYY-MM-DD' */
-  updatedAt?: string
+  updatedAt: string
 }

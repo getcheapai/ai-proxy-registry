@@ -31,34 +31,6 @@ For non-JS consumers, the package ships `dist/stations.json`:
 import data from 'ai-proxy-registry/stations.json' with { type: 'json' }
 ```
 
-Or via a CDN:
-
-```html
-<script type="module">
-  const res = await fetch('https://unpkg.com/ai-proxy-registry/dist/stations.json')
-  const stations = await res.json()
-</script>
-```
-
-## Data structure
-
-```ts
-interface Station {
-  id: string                            // Unique id
-  name: string                          // Default display name
-  homepage: string                      // Homepage URL
-  i18nNames?: Record<string, string>    // Localized names, e.g. { 'zh-CN': '克劳德' }
-  system?: 'one-api' | 'new-api' | 'sub2api' | 'custom'
-  openedAt?: string                     // Opening date, ISO format 'YYYY-MM-DD'
-  updatedAt?: string                    // Last time the data was updated, ISO format 'YYYY-MM-DD'
-  supportsInvoice?: boolean             // Whether invoices are supported
-  supportsCorporateTransfer?: boolean   // Whether payment via corporate bank transfer is supported
-  statusUrl?: string                    // Status page URL
-  privacyUrl?: string                   // Privacy policy URL
-  refundPolicy?: string                 // Refund policy (free-text description)
-}
-```
-
 ## Development
 
 ```bash
