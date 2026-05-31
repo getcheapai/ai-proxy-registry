@@ -1,0 +1,7 @@
+src/
+scripts/
+node_modules/
+tsconfig.json
+.gitignore
+.idea/
+.DS_Store

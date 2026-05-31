@@ -1,0 +1,57 @@
+{
+  "name": "ai-proxy-registry",
+  "version": "0.0.1",
+  "description": "A typed, structured registry of metadata for known AI API proxy/relay stations.",
+  "license": "MIT",
+  "author": "GetCheapAI",
+  "homepage": "https://github.com/getcheapai/ai-proxy-registry#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getcheapai/ai-proxy-registry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/getcheapai/ai-proxy-registry/issues"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./stations.json": "./dist/stations.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build && node scripts/generate-json.mjs",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai",
+    "proxy",
+    "registry",
+    "one-api",
+    "new-api",
+    "openai",
+    "claude",
+    "anthropic",
+    "llm",
+    "api-proxy",
+    "ai-api",
+    "metadata",
+    "relay"
+  ],
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.47.0",
+    "typescript": "^5.7.2",
+    "vite": "^7.0.0",
+    "vite-plugin-dts": "^4.3.0"
+  }
+}
