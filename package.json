@@ -1,6 +1,6 @@
 {
   "name": "ai-proxy-registry",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A typed, structured registry of metadata for known AI API proxy/relay stations.",
   "license": "MIT",
   "author": "GetCheapAI",
@@ -31,7 +31,8 @@
   "scripts": {
     "build": "vite build && node scripts/generate-json.mjs",
     "prepublishOnly": "npm run build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "pub": "npm publish"
   },
   "keywords": [
     "ai",
