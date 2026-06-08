@@ -11,7 +11,7 @@ export interface Station {
   i18nNames?: Record<string, string>
   /** Underlying system this station is based on */
   system?: StationSystem
-  /** Opening date, ISO format 'YYYY-MM-DD' */
+  /** Opening date, ISO format 'YYYY-MM-DD', or 'YYYY-MM' when only the month is known */
   openedAt?: string
   /** Whether invoices are supported */
   supportsInvoice?: boolean

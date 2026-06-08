@@ -264,6 +264,7 @@ export const stations = [
     name: 'ByteCat',
     homepage: 'https://www.bytecatcode.org',
     system: 'new-api',
+    openedAt: '2026-01',
     statusUrl: 'https://status.bytecatcode.org/status/bytecat',
     privacyUrl:false,
     refundUrl:false,

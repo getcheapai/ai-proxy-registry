@@ -1,0 +1,17 @@
+{
+  "project": "A I中转站注册表",
+  "hooks": {
+    "notification": {
+      "message": "Claude Code 需要权限，来自 {project}"
+    },
+    "stop": {
+      "message": "Claude Code 任务完成，来自 {project}"
+    }
+  },
+  "tts": {
+    "enabled": true
+  },
+  "desktop": {
+    "enabled": false
+  }
+}
