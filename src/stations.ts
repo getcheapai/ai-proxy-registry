@@ -540,4 +540,14 @@ export const stations = [
     refundUrl:'https://doc.claude-api.org/refund',
     updatedAt: '2026-05-31',
   },
+  {
+    id: 'onedayai',
+    name: 'OneDayAI',
+    homepage: 'https://api.autocode.space',
+    system: 'new-api',
+    statusUrl: 'http://status.autocode.space/status/autocode',
+    privacyUrl: false,
+    refundUrl: false,
+    updatedAt: '2026-06-29',
+  },
 ] as const satisfies readonly Station[]
