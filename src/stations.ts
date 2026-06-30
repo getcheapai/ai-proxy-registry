@@ -550,4 +550,14 @@ export const stations = [
     refundUrl: false,
     updatedAt: '2026-06-29',
   },
+  {
+    id: 'uocode',
+    name: 'UoCode',
+    homepage: 'https://www.uocode.com',
+    system: 'new-api',
+    statusUrl: false,
+    privacyUrl: 'https://www.uocode.com/user-agreement',
+    refundUrl: false,
+    updatedAt: '2026-06-30',
+  },
 ] as const satisfies readonly Station[]
