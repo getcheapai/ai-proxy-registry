@@ -1,6 +1,6 @@
 node_modules/
 .DS_Store
 .idea/
-CLAUDE.md
+CLAUDE.local.md
 dist/
 .npmrc

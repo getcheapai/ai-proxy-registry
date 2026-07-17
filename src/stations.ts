@@ -560,4 +560,14 @@ export const stations = [
     refundUrl: false,
     updatedAt: '2026-06-30',
   },
+  {
+    id: '4router',
+    name: '4Router',
+    homepage: 'https://4router.net',
+    system: 'new-api',
+    statusUrl: false,
+    privacyUrl: 'https://4router.net/about',
+    refundUrl: false,
+    updatedAt: '2026-07-17',
+  },
 ] as const satisfies readonly Station[]
