@@ -570,4 +570,15 @@ export const stations = [
     refundUrl: false,
     updatedAt: '2026-07-17',
   },
+  {
+    id: 'aixoras',
+    name: 'Aixoras',
+    homepage: 'https://www.aixoras.com',
+    system: 'new-api',
+    supportsInvoice: true,
+    statusUrl: false,
+    privacyUrl: 'https://www.aixoras.com/user-agreement',
+    refundUrl: false,
+    updatedAt: '2026-07-28',
+  },
 ] as const satisfies readonly Station[]
