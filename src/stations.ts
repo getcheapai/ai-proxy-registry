@@ -581,4 +581,14 @@ export const stations = [
     refundUrl: false,
     updatedAt: '2026-07-28',
   },
+  {
+    id: 'omniakey',
+    name: 'OmniaKey',
+    homepage: 'https://omniakey.com',
+    system: 'new-api',
+    statusUrl: false,
+    privacyUrl: 'https://omniakey.com/privacy',
+    refundUrl: 'https://omniakey.com/refund',
+    updatedAt: '2026-07-28',
+  },
 ] as const satisfies readonly Station[]
