@@ -591,4 +591,15 @@ export const stations = [
     refundUrl: 'https://omniakey.com/refund',
     updatedAt: '2026-07-28',
   },
+  {
+    id: 'openlux',
+    name: 'OpenLux',
+    homepage: 'https://api.openlux.ai',
+    system: 'new-api',
+    supportsInvoice: true,
+    statusUrl: false,
+    privacyUrl: 'https://privacypolicy1.zhongzhuan.chat/openlux/privacy.html',
+    refundUrl: 'https://privacypolicy1.zhongzhuan.chat/openlux/refund.html',
+    updatedAt: '2026-08-02',
+  },
 ] as const satisfies readonly Station[]
