@@ -3,16 +3,16 @@ import type { Station } from './types.js'
 export const stations = [
   {
     id: 'yunwu',
-    name: 'Yunwu',
+    name: 'Yunwu (shutting down soon)',
     homepage: 'https://yunwu.ai',
-    i18nNames: { 'zh-CN': '云雾' },
+    i18nNames: { 'zh-CN': '云雾（即将下线）' },
     system: 'new-api',
     supportsInvoice: true,
     supportsCorporateTransfer: true,
     statusUrl: 'https://yunwu.ai/console',
     privacyUrl: false,
     refundUrl: false,
-    updatedAt: '2026-05-31'
+    updatedAt: '2026-08-03'
   },
   {
     id: 'packycode',
@@ -595,7 +595,7 @@ export const stations = [
     id: 'openlux',
     name: 'OpenLux (formerly Yunwu)',
     homepage: 'https://api.openlux.ai',
-    i18nNames: { 'zh-CN': 'OpenLux（原云雾）' },
+    i18nNames: { 'zh-CN': 'OpenLux（云雾新站）' },
     system: 'new-api',
     supportsInvoice: true,
     statusUrl: false,

@@ -1,6 +1,6 @@
 {
   "name": "ai-proxy-registry",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "A typed, structured registry of metadata for known AI API proxy/relay stations.",
   "license": "MIT",
   "author": "GetCheapAI",
