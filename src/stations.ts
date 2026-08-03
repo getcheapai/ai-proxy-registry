@@ -593,13 +593,14 @@ export const stations = [
   },
   {
     id: 'openlux',
-    name: 'OpenLux',
+    name: 'OpenLux (formerly Yunwu)',
     homepage: 'https://api.openlux.ai',
+    i18nNames: { 'zh-CN': 'OpenLux（原云雾）' },
     system: 'new-api',
     supportsInvoice: true,
     statusUrl: false,
     privacyUrl: 'https://privacypolicy1.zhongzhuan.chat/openlux/privacy.html',
     refundUrl: 'https://privacypolicy1.zhongzhuan.chat/openlux/refund.html',
-    updatedAt: '2026-08-02',
+    updatedAt: '2026-08-03',
   },
 ] as const satisfies readonly Station[]
