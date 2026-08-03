@@ -603,4 +603,16 @@ export const stations = [
     refundUrl: 'https://privacypolicy1.zhongzhuan.chat/openlux/refund.html',
     updatedAt: '2026-08-03',
   },
+  {
+    id: 'apilio',
+    name: 'Apilio',
+    homepage: 'https://api.apilio.ai',
+    i18nNames: { 'zh-CN': 'Apilio（原柏拉图）' },
+    system: 'new-api',
+    supportsInvoice: true,
+    statusUrl: false,
+    privacyUrl: 'https://api.apilio.ai/privacy',
+    refundUrl: false,
+    updatedAt: '2026-08-03',
+  },
 ] as const satisfies readonly Station[]
