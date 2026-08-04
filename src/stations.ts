@@ -593,15 +593,14 @@ export const stations = [
   },
   {
     id: 'openlux',
-    name: 'OpenLux (formerly Yunwu)',
+    name: 'OpenLux',
     homepage: 'https://api.openlux.ai',
-    i18nNames: { 'zh-CN': 'OpenLux（云雾新站）' },
     system: 'new-api',
     supportsInvoice: true,
     statusUrl: false,
     privacyUrl: 'https://privacypolicy1.zhongzhuan.chat/openlux/privacy.html',
     refundUrl: 'https://privacypolicy1.zhongzhuan.chat/openlux/refund.html',
-    updatedAt: '2026-08-03',
+    updatedAt: '2026-08-05',
   },
   {
     id: 'apilio',
