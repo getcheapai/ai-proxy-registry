@@ -614,4 +614,16 @@ export const stations = [
     refundUrl: false,
     updatedAt: '2026-08-03',
   },
+  {
+    id: 'linkagi',
+    name: 'LinkAGI',
+    homepage: 'https://api.linktoagi.com',
+    system: 'new-api',
+    openedAt: '2026-06',
+    supportsInvoice: true,
+    statusUrl: 'https://docs.linktoagi.com/status.html',
+    privacyUrl: 'https://api.linktoagi.com/privacy-policy',
+    refundUrl: 'https://api.linktoagi.com/user-agreement',
+    updatedAt: '2026-09-13',
+  },
 ] as const satisfies readonly Station[]
