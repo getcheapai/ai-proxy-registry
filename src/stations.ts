@@ -614,4 +614,18 @@ export const stations = [
     refundUrl: false,
     updatedAt: '2026-08-03',
   },
+  {
+    id: 'yusr',
+    name: 'Yusr.Ai',
+    homepage: 'https://www.yusr.ai',
+    i18nNames: { 'zh-CN': 'Yusr.Ai' },
+    system: 'new-api',
+    openedAt: '2026-03-01',
+    supportsInvoice: false,
+    supportsCorporateTransfer: false,
+    statusUrl: 'https://www.yusr.ai/status-board',
+    privacyUrl: 'https://www.yusr.ai/user-agreement',
+    refundUrl: false,
+    updatedAt: '2026-10-14',
+  },
 ] as const satisfies readonly Station[]
