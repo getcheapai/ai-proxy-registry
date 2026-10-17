@@ -2,6 +2,16 @@ import type { Station } from './types.js'
 
 export const stations = [
   {
+    id: 'yonshoreapi',
+    name: 'YonShoreAPI',
+    homepage: 'https://api.yonshore.com',
+    system: 'new-api',
+    statusUrl: 'https://api.yonshore.com/api/status',
+    privacyUrl: false,
+    refundUrl: 'https://api.yonshore.com/about#refunds',
+    updatedAt: '2026-10-17',
+  },
+  {
     id: 'yunwu',
     name: 'Yunwu (shutting down soon)',
     homepage: 'https://yunwu.ai',
